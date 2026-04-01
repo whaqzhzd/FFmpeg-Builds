@@ -5,6 +5,7 @@ on:
     paths-ignore:
       - '**.md'
       - 'LICENSE'
+      - "README.md"
   workflow_dispatch:
     inputs:
       doRelease:
